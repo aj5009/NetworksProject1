@@ -9,11 +9,13 @@ def welcome_assignment_answers(question):
         answer = "The student should type the answer here"
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
         answer = "The student should type the answer here"
+    elif question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
+        answer = "pcap"
     else: 
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
         ### maybe put something here to flag an issue and catch errors
-        answer = "This is not my beautiful wife! This is not my beautiful car! How did I get here?"
+        answer = "Input question was not found in the logic. Also Talking Heads are awesome"
     return(answer)
 # Complete all the questions.
 
